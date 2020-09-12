@@ -12,6 +12,5 @@ class Index extends BaseController
     public function index($id)
     {
         $res = Db::query('select * from banner_item where banner_id=?',[$id]);
-        $res;
     }
 }
